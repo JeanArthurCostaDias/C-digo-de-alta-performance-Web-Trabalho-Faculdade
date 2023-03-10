@@ -5,28 +5,50 @@
     font-family: 'dancing script';
     scroll-behavior: smooth;
 }
-body {
+html,body {
     background-image: url("../img/Home.png");
+    background-color: #F4C0CD;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
 }
+
 header {
-    position: absolute;
-    width: 350px;
-    height: 43px;
-    left: 547px;
-    top: 16px;
-}
-header div #Login{
-    background: #BE1622;
-    float: left;
-}
-header div #Cadastro{
-    background: #BE1622;
-    float: right;
+    display: flex;
+    justify-content: center;
 }
 
 header div {
+    display: flex;
     font-size: 35px;
+    width: 370px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header div #Cadastro{
+    background-color: #BE1622;
+    float: inline-end;
+}
+header div #Login{
+    margin-right: 35px;
+    width: 270px;
+    background-color: #BE1622;
+    float: inline-start;
+}
+
+header div a{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 36px;
+    color: #FFF8F8;
+    text-decoration: none;
 }
 
 aside p {
@@ -43,35 +65,77 @@ aside p {
     align-items: center;
     color: #FFF8F8;
 }
+nav {
+    display: flex;
+    justify-content: center;
+}
 
-#formulario {
+
+nav #formulario {
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 595px;
     height: 701px;
-    left: 450px;
-    top: 976px;
-
-    background: #FFD1D1;
+    top: 1250px;    
+    bottom: 50px;
+    background-color: #EB6077;
     border-radius: 50px;
 }
-div form {
-    display: none;
-}
-div form div input {
-    position: absolute;
+nav #formulario form .forms_input input {
+    display: flex;
     width: 464px;
     height: 59px;
-    left: 69px;
-    margin-top: 50px;
-
-    font-family: 'Ingrid Darling';
-    background-color: #000000;
+    margin-top: 35px;
+    background-color: inherit;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-
+    font-size: 40px;
     color: #000000;
+    border: none;
+    border-color: #000000;
+    border-bottom: 1px solid #000000;
+}
+nav div form .forms_input input::placeholder{
+    color: #000000;
+}
+
+input:focus{
+    background-color: inherit;
+    outline: none;
+}
+
+
+/* Faz as sugestões dos input type terem background transparente */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/* Retira o calendário do input type date */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 2100px;
+    width: 100%;
+}
+
+nav #formulario form .forms_input div #checkbox{
+    position: absolute;
+    width: 55px;
+    height: 25px;
+}
+nav #formulario form .forms_input div label{
+    float:right;
+    margin-top: 37px;
+    margin-right: 25px;
+    font-size: 17px;
 }

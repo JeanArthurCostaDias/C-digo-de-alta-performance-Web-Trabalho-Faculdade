@@ -5,38 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css"></link>
-    <title>Document</title>
+    <title>Site de relacionamento</title>
 </head>
-<body>
-    <header>
-        <div>
-            <a id="Login">Login</a>
+    <body>
+        <div id="main-wrapper">
+            <header>
+                <div>
+                    <div id="Login">
+                        <a>Login</a>
+                    </div>
+                    <div id="Cadastro">
+                        <a href="#formulario">Cadastro</a>
+                    </div>
+                </div>
+            </header>
+            <aside>
+                <p>Ache seu par</p>
+            </aside>
+            <nav>
+                <div id="formulario">
+                    <form action="">
+                        <div class="forms_input">
+                            <input type="text" name="name" placeholder="Nome">
+                        </div>
+                        <div class="forms_input">
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="forms_input">
+                            <input type="text" placeholder="Endereço">
+                        </div>
+                        <div class="forms_input">
+                            <input type="date" name="birthday" class="date-input" placeholder="Data de nascimento">
+                        </div>
+                        <div class="forms_input">
+                            <input type="password" name="password" placeholder="Senha">
+                        </div>
+                        <div class="forms_input">
+                            <input type="password" name="password" placeholder="Confirme a senha">
+                        </div>
+                        <div class="forms_input">
+                            <div>
+                                <input type="checkbox" name="checkbox" id="checkbox">
+                                <label for="checkbox">Declaro que li e concordo com os termos e condições de uso do site</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
         </div>
-        <div>
-            <a id="Cadastro" href="#formulario">Cadastro</a>
-        </div>
-    </header>
-    <aside>
-        <p>Ache seu par</p>
-    </aside>
-    <div id="formulario">
-        <form action="">
-            <div>
-                <input type="text" name="name" placeholder="Nome">
-            </div>
-            <div>
-                <input type="email" name="email" placeholder="Email">
-            </div>
-            <div>
-                <input type="text" placeholder="Endereço">
-            </div>
-            <div>
-                <input type="date" name="birthday" placeholder="Data de nascimento">
-            </div>
-            <div>
-                <input type="password" name="password" placeholder="Senha">
-            </div>
-        </form>
-    </div>
-</body>
+        <footer>
+        </footer>
+    </body>
+<script src="scripts/script.js"></script>
 </html>
