@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap%27');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'dancing script';
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("../img/Home.png");
+    background-size: cover;
+}
+header {
+    position: absolute;
+    width: 350px;
+    height: 43px;
+    left: 547px;
+    top: 16px;
+}
+header div #Login{
+    background: #BE1622;
+    float: left;
+}
+header div #Cadastro{
+    background: #BE1622;
+    float: right;
+}
+
+header div {
+    font-size: 35px;
+}
+
+aside p {
+    position: absolute;
+    width: 592px;
+    height: 161px;
+    left: 223px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 161px;
+    display: flex;
+    align-items: center;
+    color: #FFF8F8;
+}
+
+#formulario {
+    position: absolute;
+    width: 595px;
+    height: 701px;
+    left: 450px;
+    top: 976px;
+
+    background: #FFD1D1;
+    border-radius: 50px;
+}
+div form {
+    display: none;
+}
+div form div input {
+    position: absolute;
+    width: 464px;
+    height: 59px;
+    left: 69px;
+    margin-top: 50px;
+
+    font-family: 'Ingrid Darling';
+    background-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
