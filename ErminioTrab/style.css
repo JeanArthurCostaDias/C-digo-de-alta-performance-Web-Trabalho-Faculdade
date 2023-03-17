@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Ingrid+Darling&display=swap');
+/*
+Estilização inicla da página
+*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*
+Utilizado para deixar o scroll mais suave
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*
+Utilizado para redimensionar a página de navegação
+*/
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    background: #F4C0CD;
+}
+
+/*
+Utilizado para redimensionar a página de navegação 
+*/
+header nav div {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    margin-top: 10px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+/*
+Utilizado para redimensionar as imagens da barra de navegação
+*/
+header nav div img{
+    object-fit: contain;
+    margin-top: 5px;
+    width: 45px;
+    height: 38px;
+}
+
+/*===========================Seção container 1============================================*/
+    .container {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+
+/*
+metade do container esquerdo
+*/
+    .metade1 {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+
+/*
+Metade do container direita
+*/
+    .metade2 {
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+/*===========================Carrossel============================================*/
+
+    .slider {
+        margin: 0; 
+        padding: 0; 
+    }
+    .slider {
+        display: block;
+        height: 280px;
+        width: 366px;
+        margin: auto;
+        position: relative;
+        float: right;
+    }
+    
+    .slider li {
+        list-style: none;
+        position: absolute;
+
+    }
+    .slider img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*========================================================================================*/
+
+
+/*================================Seção de fontes=======================================*/ 
+
+.inicial_text {
+    font-family: 'Dancing Script', cursive;
+    padding: 100px;
+}
+
+.starter_text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+.desc_text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.criar_perfil {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    text-indent: 3%;
+    margin-top: 30px;
+}
+
+.criar_perfil2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*=======================================================================*/ 
+
+
+
+/*===========================Seção container 2============================================*/
+.container2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #F4C0CD;
+}
+/*
+metade da esquerda do container
+*/
+.container2_metade1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+/*
+Utilizado para redimensionar as imagens da metade esquerda do container
+*/
+.container2_metade1 .bar_imagem{
+    padding: 65px;
+    padding-right: 0px;
+}
+/*
+Utilizado para redimensionar as imagens da metade esquerda do container
+*/
+.container2_metade1 .bar_imagem img{
+    height: 550px;
+    width: 480px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+/*
+Metade da direita do carrosel
+*/
+.container2_metade2 {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+/*
+Utilizado para redimensionar a metade 2 dos textos
+*/
+.container2_metade2_text{
+    padding: 100px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+
+/*================================Seção de fontes=======================================*/ 
+
+.container2_metade2_starter_text{
+    font-family: 'Imprima';
+}
+
+.container2_metade2_end_text{
+    font-family: 'Inconsolata';
+}
+/*=======================================================================*/ 
+
+
+/*===========================Seção container 3============================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================Seção container 4============================================*/
+.container4 {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: #F4C0CD;
+    justify-content: space-evenly;
+}
+
+/*
+Metade da esquerda do container (redimensionamento)
+*/
+.container4_metade1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+/*
+Utilizado para redimensionamento de div na metade 1
+*/
+.container4_metade1 .div_login{
+    display: flex;
+    height: 150px;
+    width: 370px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+/*
+Utilizado para redimensionamento de texto/fonte
+*/
+.container4_metade1 .div_login h1{
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*
+Utilizado para redimensionamento de div na metade 1
+*/
+.container4_metade1 .div_login .div_login_formulario{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/*
+Lado direito do container
+*/
+.container4_metade2 {
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+Utilzado para redimensionamento de div do lado direito
+*/
+.container4_metade2 .div_register{
+    display: flex;
+    height: 670px;
+    width: 450px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 190px;
+}
+/*
+Redimensionamento de texto/fonte
+*/
+.container4_metade2 .div_register h1{
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 58px;
+    text-align: center;
+}
+
+/*
+Utilizado para redimensionamento da div do formulária, lado direito
+*/
+.container4_metade2 .div_register_formulario{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #EB6077;
+}
+
+/*
+Utilizado para redimensionamento de div e fontes
+*/
+.container4_metade2 input, .container4_metade1 input {
+    font-family: 'Ingrid Darling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: black;
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+/*
+Utilizado para descer o input
+*/
+.container4_metade2 input{
+    margin-top: 25px;
+}
+/*
+Utilizado para descer o input
+*/
+.container4_metade1 input {
+    margin-top: 45px;
+}
+/*
+Utilizado para modificar cor e posição do input 
+*/
+.container4_metade2 input[type='submit']{
+    background-color: white;
+    margin-top: 25px;
+}
+/*
+Utilizado para modificar cor e posição do input 
+*/
+.container4_metade1 input[type='submit']{
+    background-color: #EB6077;
+    margin-top: 65px;
+}
+/*
+Utilizado para redimensionar o input
+*/
+input[type='submit']{
+    border: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Imprima';
+    margin-left: 55px;
+    margin-bottom: 45px;
+    border-radius: 55px;
+    width: 200px;
+    height: 80px;
+}
+/*
+Utilizado para modificar e adicionar o placeholder
+*/
+input::placeholder{
+    font-family: 'Ingrid Darling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: black;
+}
+/*
+Utilizado redimensionamento 
+*/
+input[type='checkbox']{
+    font-family: 'Ingrid Darling';
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+/*
+Utilizado redimensionamento 
+*/
+input[type="date"]{
+    font-size: 35px;
+    width: 100%;
+}
+/* Remove o icone de calendário do input type date NÃO MEXER */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+input:focus{
+    outline: 0;
+}
+/*
+Utilizado para posicionamento e redimensionamento de div
+*/
+.container4_metade2 #checkbox_div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-family: 'Ingrid Darling';
+    font-size: 25px;
+}
+/*===========================Seção container 5============================================*/
+
+
+.container5 {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+/*
+Metade esquerda do container
+*/
+.container5_metade1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+/*
+Metade direita do container
+*/
+.container5_metade2 {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+/*
+Utilizado para arrumar o posicionamento da imagem
+*/
+.container5_metade1 .promo-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+/*
+Utilizado para redimensionamento de imagem
+*/
+.container5_metade1 .promo-img img{
+    width: 500px;
+    height: 500px;
+}
+/*
+Utilizado para tamanho de texto/fonte
+*/
+.container5_metade1 h2{
+    text-align: center;
+    font-family: 'Ingrid Darling';
+    font-weight: 100;
+    font-size: 75px;
+}
+/*
+Utilizado para redimensionament do container e div de texto
+*/
+.container5_metade2_text{
+    margin-top: 230px;
+    font-family: Inconsolata;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+/*===========================Seção footer============================================*/
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    background: #F4C0CD;
+}
+/*
+Utilizado para redimensionamento e ajustes tanto do lado direito quanto do lado esquerdo do footer
+*/
+footer nav .bloco-de-icone-esquerda, .bloco-de-icone-direita {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    border-radius: 40px; 
+}
+/*
+Utilizado para posicionamento tanto do lado direito quanto do lado esquerdo do footer
+*/
+footer nav .bloco-de-icone-esquerda div, .bloco-de-icone-direita div{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 55px;
+} 
+/*
+Utilizado para redimensionamento e ajustes de imagens do footer
+*/
+footer nav .bloco-de-icone-esquerda div img, .bloco-de-icone-direita div img{
+    object-fit: contain;
+    width: 35px;
+    height: 48px;
+}
+/*
+Utilizado para ajuste e redimensionamento do icone do meio
+*/
+footer nav .icone-principal{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+/*
+Utilizado para ajuste e redimensionamento da imagem do icone do meio
+*/
+footer nav .icone-principal img{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 60px;
+}
